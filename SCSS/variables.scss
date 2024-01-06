@@ -1,0 +1,19 @@
+//#region Colours
+$colour-white: hsl(0, 0%, 100%);
+$colour-light-gray: hsl(212, 45%, 89%);
+$colour-grayish-blue: hsl(220, 15%, 55%);
+$colour-dark-blue: hsl(218, 44%, 22%);
+//#regionend Colours
+
+
+//#region Typography
+$font-size-paragraph: 0.9375rem;
+$font-weight-400: 400;
+$font-weight-700: 700;
+$font-family-outfit: "Outfit";
+//#endregion Typography
+
+//#region Page Breakpoints
+$page-break-mobile: 375px;
+$page-break-desktop: 1440px;
+//#endregion Page Breakpoints
