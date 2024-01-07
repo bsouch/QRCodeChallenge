@@ -21,3 +21,20 @@ $page-break-desktop: 1440px;
 //#region Images
 $image-qr-code: url(../images/image-qr-code.png) no-repeat;
 //#endregion Images
+
+//#region Spacing
+$padding-med: 16px;
+$margin-sm-med: 10px;
+//#endregion Spacing
+
+//#region Borders
+$border-radius-medium: 10px;
+//#endregion Borders
+
+//#region Sizes
+$size-full-view-height: 100vh;
+$size-full-view-width: 100vw;
+$size-full-parent: 100%;
+$size-half-parent: 50%;
+$size-negative-half-parent: -50%;
+//#endregion Sizes

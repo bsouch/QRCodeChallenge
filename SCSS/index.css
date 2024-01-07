@@ -1,1 +1,47 @@
+body {
+  background-color: hsl(220deg, 15%, 55%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 10px;
+  padding: 16px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 200px;
+}
+
+.label {
+  font-family: "Outfit";
+}
+
+.img-qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-sub-title {
+  font-weight: 700;
+}
+
+.card-body-paragraph {
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=index.css.map */
