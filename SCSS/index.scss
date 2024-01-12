@@ -2,7 +2,7 @@
 @import "./mixins.scss";
 
 body {
-    background-color: $colour-grayish-blue;
+    background-color: $colour-light-gray;
 }
 
 .container {
@@ -36,8 +36,11 @@ body {
 
 .card-sub-title {
     font-weight: $font-weight-700;
+    text-align: center;
 }
 
 .card-body-paragraph {
     font-weight: $font-weight-400;
+    text-align: center;
+    color: $colour-grayish-blue;
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(220deg, 15%, 55%);
+  background-color: hsl(212deg, 45%, 89%);
 }
 
 .container {
@@ -38,10 +38,13 @@ body {
 
 .card-sub-title {
   font-weight: 700;
+  text-align: center;
 }
 
 .card-body-paragraph {
   font-weight: 400;
+  text-align: center;
+  color: hsl(220deg, 15%, 55%);
 }
 
 /*# sourceMappingURL=index.css.map */
