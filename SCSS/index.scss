@@ -1,0 +1,46 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+body {
+    background-color: $colour-light-gray;
+}
+
+.container {
+    @include mix-flex-row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: $size-full-view-height;
+    width: $size-full-view-width;
+}
+
+.card {
+    @include mix-flex-column;
+    @include mix-absolute-centralise;
+    gap: $margin-sm-med;
+    padding: $padding-med;
+    border-radius: $border-radius-medium;
+    align-items: center;
+    background-color: $colour-white;
+    max-width: 200px;
+}
+
+.label {
+    font-family: $font-family-outfit;
+}
+
+.img-qr-code {
+    width: $size-full-parent;
+    border-radius: $border-radius-medium;
+}
+
+.card-sub-title {
+    font-weight: $font-weight-700;
+    text-align: center;
+}
+
+.card-body-paragraph {
+    font-weight: $font-weight-400;
+    text-align: center;
+    color: $colour-grayish-blue;
+}
